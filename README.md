@@ -64,7 +64,7 @@ And the add the stuff to display when the element is expanded! This can be any H
 </details>
 ```
 
-[View this&nbsp;example](http://jpdevries.github.io/deets).
+[Visit this&nbsp;example](http://jpdevries.github.io/deets).
 
 ### icons
 There are a few patterns to add&nbsp;icons.
