@@ -17,8 +17,29 @@
       text-decoration: none;
     }
 
-    summary::-webkit-details-marker {
+    .deets summary::-webkit-details-marker {
       transform: translateY(-.1em);
+    }
+
+    .deets summary > a {
+      position:relative;
+      padding-left:1.5em;
+    }
+
+    .deets summary > a:before {
+      content:' ';
+      position:absolute;
+      left:0;
+      bottom:0;
+      width:1em;
+      top:0;
+      display:block;
+      background:transparent url('assets/img/folder.svg') no-repeat center center;
+      background-size:contain;
+    }
+
+    .deets details[open] > summary > a:before {
+        background:transparent url('assets/img/folder-open.svg') no-repeat center center;
     }
 
     [no-marker] summary::-webkit-details-marker {
@@ -40,23 +61,6 @@
     }
 
     .deets summary a {
-      display:inline-block;
-      transform:translateX(-.25em);
-    }
-
-    .deets .icon {
-      transform:translateY(.125em);
-    }
-
-    .deets details .folder-open {
-      display:none;
-    }
-
-    .deets details[open] > summary > a .folder {
-      display:none;
-    }
-
-    .deets details[open] > summary > a .folder-open {
       display:inline-block;
     }
 

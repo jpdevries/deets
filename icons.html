@@ -46,6 +46,7 @@
 
     .deets .icon {
       transform:translateY(.125em);
+      fill:currentColor;
     }
 
     .deets details .folder-open {
@@ -68,12 +69,24 @@
       <details>
         <summary>
           <a href="#">
+            <svg role="img" class="folder icon">
+              <use xlink:href="assets/img/icons.svg#icon-folder"></use>
+            </svg>
+            <svg hidden role="img" class="folder-open icon">
+              <use xlink:href="assets/img/icons.svg#icon-folder-open"></use>
+            </svg>
             Blog
           </a>
         </summary>
         <details>
           <summary>
             <a href="#">
+              <svg role="img" class="folder icon">
+                <use xlink:href="assets/img/icons.svg#icon-folder"></use>
+              </svg>
+              <svg hidden role="img" class="folder-open icon">
+                <use xlink:href="assets/img/icons.svg#icon-folder-open"></use>
+              </svg>
               MODX
             </a>
           </summary>
@@ -87,6 +100,12 @@
         <details>
           <summary>
             <a href="#">
+              <svg role="img" class="folder icon">
+                <use xlink:href="assets/img/icons.svg#icon-folder"></use>
+              </svg>
+              <svg hidden role="img" class="folder-open icon">
+                <use xlink:href="assets/img/icons.svg#icon-folder-open"></use>
+              </svg>
               HTML5
             </a>
           </summary>
