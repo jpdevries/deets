@@ -146,5 +146,7 @@ details[open] > summary > a:before {
 
  _These may not be cons or costly if you are serving over HTTP/2 and icons don't need to be semantic or&nbsp;accessible_
 
+Yes you [could inline the icons with data URIs but probably&nbsp;don't](https://css-tricks.com/probably-dont-base64-svg/)?
+
 ### `no-marker`
 If this attribute is present on the `<details>` node or any parent node the triangular marker which indicates if summaries are expanded or closed will not be&nbsp;displayed.
