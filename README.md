@@ -116,7 +116,7 @@ The CSS pattern requires no&nbsp;markup.
 
 ##### CSS
 ```css
-.deets summary > a:before {
+summary > a:before {
   content:' ';
   position:absolute;
   left:0;
@@ -128,7 +128,7 @@ The CSS pattern requires no&nbsp;markup.
   background-size:contain;
 }
 
-.deets details[open] > summary > a:before {
+details[open] > summary > a:before {
   background:transparent url('assets/img/folder-open.svg') no-repeat center center;
 }
 ```
