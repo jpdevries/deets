@@ -110,7 +110,7 @@ details[open] > summary > a .folder-open {
   - an HTTP request
 
 #### CSS Pseudo
-Our [CSS Pseudo example](https://jpdevries.github.io/deets/icon-pseudo.html) is CSS only and therefore the icons aren't delivered semantically or accessible. But depending on your situation they may not need to be. For example, a screen reader user may not need to be informed there's an icon that indicates a folder is open if their assistive technology had already indicated&nbsp;that.
+Our [CSS Pseudo example](https://jpdevries.github.io/deets/icons-pseudo.html) is CSS only and therefore the icons aren't delivered semantically or accessible. But depending on your situation they may not need to be. For example, a screen reader user may not need to be informed there's an icon that indicates a folder is open if their assistive technology had already indicated&nbsp;that.
 
 The CSS pattern requires no&nbsp;markup.
 
